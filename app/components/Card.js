@@ -23,7 +23,7 @@ export default function CardComp({ reservation }) {
   return (
     <Card
       key={reservation.id}
-      className="bg-gray-900 border-gray-800 overflow-hidden py-0 text-white"
+      className="bg-transparent border-gray-800 overflow-hidden py-0 text-white"
     >
       <CardContent className="p-0">
         <div className="flex items-center justify-between p-4 border-b border-gray-800">
